@@ -21,7 +21,7 @@ public class TestDao {
 
             long end = System.currentTimeMillis();
 
-            System.out.println("Total time query in milliseconds: " + (end - start));
+            System.out.println("Please stop this nonsense git: " + (end - start));
 
 
             System.out.println("Retrieving database names");
