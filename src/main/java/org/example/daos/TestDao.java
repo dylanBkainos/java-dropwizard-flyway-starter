@@ -18,6 +18,8 @@ public class TestDao {
             ResultSet resultSet = statement.executeQuery(
                     "SHOW DATABASES;");
 
+            System.out.println("Please stop this nonsense git: ");
+
             System.out.println("Retrieving database names");
             while (resultSet.next()) {
                 databases.add(resultSet.getString("Database"));
